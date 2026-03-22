@@ -61,7 +61,13 @@ const person = {
     height: 183,
     weight: 98
 }
+const person2 = {
+    name: 'Daniela',
+    height: 183,
+    weight: 98
+}
 
 console.log(calculateIMC(person))
+console.log(calculateIMC(person2))
 
 
